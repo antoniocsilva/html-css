@@ -19,7 +19,7 @@ body{
 
 .conteudo p{
     text-align: justify;
-   margin: 0 auto 10px auto;
+    margin: 0 auto 10px auto;
 }
 
 .conteudo{
@@ -27,6 +27,17 @@ body{
     background: azure;
     width: 795px;
 
+}
+
+.titulo{
+    font-family: verdana, geneva, arial, helvetica, sans-serif;
+    font-weight: bold;
+    float: left;
+    background: azure;
+    width: 940px;
+    font-size: 20px;
+    padding: 0 30px;
+    
 }
 
 #sideBar{

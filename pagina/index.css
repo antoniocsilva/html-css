@@ -1,0 +1,49 @@
+body{
+    width:1000px;
+    margin: 0 auto;
+}
+
+.topo p{
+    font-size: 60px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: verdana, geneva, arial, helvetica, sans-serif;
+    color: #003366;
+
+}
+
+.topo{
+    height: 100px;
+    background: aquamarine;
+}
+
+.conteudo p{
+    text-align: justify;
+   margin: 0 auto 10px auto;
+}
+
+.conteudo{
+    float: left;
+    background: azure;
+    width: 795px;
+
+}
+
+#sideBar{
+    float: right;
+    width: 205px;
+    height: 245px;
+    display: inline;
+    background-image: url("linux.jpg");
+
+}
+
+.footer p{
+    position: relative;
+    height: 30px;
+    background: aquamarine;
+    clear: both;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+}

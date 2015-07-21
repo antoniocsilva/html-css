@@ -1,0 +1,90 @@
+/*
+ * CSS Reset
+ */
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+/*
+ * Fim do CSS Reset
+ */
+/*Estrutura ok*/
+#estrutura{
+    width: 800px;
+    margin: 0 auto; /*Centralizar site*/
+    border: 1px solid black;
+
+}
+/*topo ok*/
+#topo{
+    height: 80px;
+    background: blue;
+}
+
+#topo h1{
+    font-size: 60px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: verdana, geneva, arial, helvetica, sans-serif;
+    color: #003366;
+
+}
+
+#menu_topo{
+    background: #69f;
+    height: 38px;
+}
+
+#menu_topo ul li a{
+    display: block;
+    float: left;
+    padding: 10px 20px;
+
+    text-decoration: none;
+    border-right: 1px solid blue;
+}
+
+#menu_topo ul li a:hover{
+    background: #003366;
+    color: #fff;
+
+}
+.sideBar {
+    float: left;
+    width: 78px;
+    height: 150px;
+    display: inline;
+    border: 1px dotted black;
+
+}
+
+.sideBar p{
+    text-align: center;
+    border-bottom: 1px solid black;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+#top_cinco li{
+    margin: 5px 15px;
+    font-size: 18px;
+    text-shadow: 0 0 3px #FF0000;
+}
+#menu_footer{
+    clear: both;
+    height: 20px;
+    background: #69f;
+}
+
+#menu_footer ul li a{
+    display: block;
+    float: left;
+    padding: 1px 20px;
+    text-decoration: none;
+}
+
+#menu_footer ul li a:hover {
+    background: #003366;
+    color: #fff;
+}

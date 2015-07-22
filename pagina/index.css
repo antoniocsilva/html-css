@@ -13,6 +13,7 @@
 #estrutura{
     width:1000px;
     margin: 0 auto;
+    background: azure;
 }
 
 .topo p{
@@ -49,7 +50,7 @@
 
 }
 
-.titulo{
+.titulo, #contato{
     font-family: verdana, geneva, arial, helvetica, sans-serif;
     font-weight: bold;
     float: left;
@@ -59,50 +60,63 @@
     padding: 10px 30px;
     /*height:40px;*/
 
+}
 
+.titulo{
+    border-bottom: 1px dashed #69f;
+}
+
+#contato ul li{
+    font-size: 18px;
+    font-weight: normal;
 }
 
 .conteudo p{
     text-align: justify;
-    margin: 0 auto 10px auto;
+    margin: 0 5px 10px 5px;
+    padding-top: 5px;
 }
 
 .conteudo{
     float: left;
     background: azure;
-    width: 795px;
+    width: 765px;
 
 }
 
 #sideBar{
     float: right;
-    width: 205px;
+    width: 235px;
     height: 245px;
+    /*margin: 5px auto;*/
     display: inline;
-    background-image: url("linux.jpg");
+    background-image: url("linux.png");
 
 }
 
 .siderar {
-    float: left;
+    float: right;
     width: 200px;
-    height: 150px;
+    height: 200px;
     display: inline;
     /*border: 1px dotted black;*/
     margin-top: 10px;
+    clear: right;
 
 }
 
 .siderar p{
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px dashed #69f;
     font-size: 30px;
+
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
 }
 
 #top_cinco li{
-    margin: 5px 15px;
+    margin: 10px 15px;
     font-size: 18px;
     text-shadow: 0 0 3px #FF0000;
 }
@@ -134,3 +148,4 @@
     line-height: 30px;
     font-size: 12px;
 }
+

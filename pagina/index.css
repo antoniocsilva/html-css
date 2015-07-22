@@ -87,7 +87,7 @@
 #sideBar{
     float: right;
     width: 235px;
-    height: 245px;
+    height: 250px;
     /*margin: 5px auto;*/
     display: inline;
     background-image: url("linux.png");
@@ -97,10 +97,10 @@
 .siderar {
     float: right;
     width: 200px;
-    height: 200px;
+    height: 220px;
     display: inline;
     /*border: 1px dotted black;*/
-    margin-top: 10px;
+    /*margin: 10px auto;*/
     clear: right;
 
 }
@@ -109,7 +109,8 @@
     text-align: center;
     border-bottom: 1px dashed #69f;
     font-size: 30px;
-
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 

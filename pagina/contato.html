@@ -21,9 +21,28 @@
         </ul>
     </div>
     <div class="titulo">
-        <p>Em construção</p>
+        <p>Entre em contato</p>
     </div>
     <div class="conteudo">
+        <fieldset>
+        <form action="index.html" name="frmCadastro" method="post">
+                <label class="gInput">Nome: <input type="text" class="gInput" autofocus required/></label>
+                <label class="gInput">Email: <input type="text" class="gInput"required/></label>
+                <label class="gInput">Assunto: <input type="text" required/></label>
+                <label class="gInput">
+                    Setor:
+                    <select name="Setor" required>
+                        <option value="" selected="selected"></option>
+                        <option value="financeiro">Finançeiro</option>
+                        <option value="logistica">Logistica</option>
+                        <option value="atendimento">Atentimento</option>
+                        <option value="gerencia">Gerencia</option>
+                    </select>
+                </label>
+        </fieldset>
+            <input type="submit" name="submit" value="Enviar" class="btnSubmit"/>
+
+        </form>
 
     </div>
     <div id="sideBar">

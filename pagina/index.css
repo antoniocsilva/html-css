@@ -149,4 +149,81 @@
     line-height: 30px;
     font-size: 12px;
 }
+/*Css da tabela*/
+table {
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 700px;
+    border-collapse:collapse;
+    margin: 30px 0 30px 30px;
+}
+hr{
+    width: 700px;
+    margin: 30px 0 30px 30px;
+    border-bottom: 1px solid #69f;
 
+}
+table td, table th {
+    font-size:1.2em;
+    border:1px solid #69f;
+    padding:3px 7px 2px 7px;
+}
+table th {
+    font-size:1.4em;
+    text-align:left;
+    padding-top:5px;
+    padding-bottom:4px;
+    background-color:#69f;
+    color:#fff;
+}
+/*Zebar a tabela recurso do css3*/
+table tr:nth-child(odd) {
+    color:#000;
+    background-color:#EAF2D3;
+}
+
+/*css do form*/
+fieldset{
+    width: 600px;
+    height: 200px;
+    margin: 30px auto;
+}
+label{
+    display: block;
+    font-size: 15px;
+    font-family: verdana, geneva, arial, helvetica, sans-serif;
+    float: left;
+    width: 200px;
+    margin: 10px;
+
+}
+input {
+    width: 200px;
+    height: 25px;
+    display: block;
+    border: 1px solid #afafaf;
+    font-size: 15px;
+
+}
+
+.gInput{
+    width: 420px;
+    height: 25px;
+
+}
+select{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.btnSubmit{
+    width: 80px;
+    height: 30px;
+    /*position: absolute;*/
+    /*margin-bottom: 20px auto;*/
+    margin: 20px auto;
+    border-radius: 25px;
+}
+
+input:focus{
+    border: 1px dotted green;
+    background: #fdffef;
+}
